@@ -1,0 +1,359 @@
+libconfig___la-libconfigcpp.lo: libconfigcpp.c++ libconfig.h++ \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/stdio.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /Users/regnarts/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /Users/regnarts/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/exception \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/c++config.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/os_defines.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/cpu_defines.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/atomic_lockfree_defines.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/string \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stringfwd.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/memoryfwd.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/char_traits.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_algobase.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/functexcept.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/exception_defines.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/cpp_type_traits.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/type_traits.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/numeric_traits.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_pair.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/move.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/concept_check.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_iterator_base_types.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_iterator_base_funcs.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/debug/debug.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_iterator.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ptr_traits.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/predefined_ops.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/postypes.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cwchar \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/wchar.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/limits.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/time.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/time.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/time.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/siginfo.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/allocator.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/c++allocator.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/new_allocator.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/new \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/localefwd.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/c++locale.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/clocale \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/locale.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/iosfwd \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cctype \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/ctype.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ostream_insert.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/cxxabi_forced.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_function.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward/binders.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/range_access.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_string.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/atomicity.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/gthr.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/gthr-default.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/pthread.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/signal.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/string.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/signal.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/ucontext.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/user.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sched.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/atomic_word.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_string.tcc \
+ wincompat.h libconfig.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/strings.h \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/memory.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/istream \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ios \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ios_base.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_classes.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_classes.tcc \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/streambuf \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/streambuf.tcc \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_ios.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_facets.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cwctype \
+ /Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/wctype.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/ctype_base.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/streambuf_iterator.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/ctype_inline.h \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_facets.tcc \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_ios.tcc \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ostream \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ostream.tcc \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/istream.tcc \
+ /Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/sstream.tcc
+
+libconfig.h++:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/stdio.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/types.h:
+
+/Users/regnarts/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+
+/Users/regnarts/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/exception:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/c++config.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/os_defines.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/cpu_defines.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/atomic_lockfree_defines.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/string:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stringfwd.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/memoryfwd.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/char_traits.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_algobase.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/functexcept.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/exception_defines.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/cpp_type_traits.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/type_traits.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/numeric_traits.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_pair.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/move.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/concept_check.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_iterator_base_types.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_iterator_base_funcs.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/debug/debug.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_iterator.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ptr_traits.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/predefined_ops.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/postypes.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cwchar:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/wchar.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/limits.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/page.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/time.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/time.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/linux/time.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/siginfo.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/malloc.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/allocator.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/c++allocator.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/new_allocator.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/new:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/localefwd.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/c++locale.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/clocale:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/locale.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/iosfwd:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cctype:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/ctype.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ostream_insert.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/cxxabi_forced.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/stl_function.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward/binders.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/range_access.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_string.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/atomicity.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/gthr.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/gthr-default.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/pthread.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/signal.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/string.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/signal.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/ucontext.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sys/user.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/sched.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/atomic_word.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_string.tcc:
+
+wincompat.h:
+
+libconfig.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/stdlib.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/alloca.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/strings.h:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/memory.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/sstream:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/istream:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ios:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ios_base.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_classes.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_classes.tcc:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/streambuf:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/streambuf.tcc:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_ios.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_facets.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/cwctype:
+
+/Users/regnarts/android-ndk-r10c/platforms/android-19/arch-arm/usr/include/wctype.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/ctype_base.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/streambuf_iterator.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include/bits/ctype_inline.h:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/locale_facets.tcc:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/basic_ios.tcc:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/ostream:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/ostream.tcc:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/istream.tcc:
+
+/Users/regnarts/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/sstream.tcc:
