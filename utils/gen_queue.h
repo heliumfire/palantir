@@ -25,6 +25,8 @@ public:
 	 */
 	gen_queue() : head(0), tail(0) {
 		INIT_LOCK(gen_queue);
+		MUX_SIGNAL_INIT(gen_queue);
+		size = 0;
 	};
 
 	/**
@@ -34,16 +36,15 @@ public:
 	 * @return status/error code. Please refer to status_codes.h
 	 */
 
-	int push(_type* data, int size){
+	int push(_type* data){
 		if(data == NULL)
 			return GENQUEUE_INIP;
 		ppayload_t 	tmp;
 		tmp = new payload_t();
 		tmp->data = data;
-		tmp->size = size;
 		LOCK(gen_queue);
-		printf("pushing to %p \n", tmp);
-		if(head == NULL){
+		printf("pushing to %p %d\n", tmp, size);
+		if(head == NULL || tail == NULL){
 			tmp->next = NULL;
 			head = tmp;
 			tail = head;
@@ -53,48 +54,74 @@ public:
 			tmp->next = NULL;
 			head = tmp;
 		}
+		size++;
+		MUX_BCAST_SIGNAL(gen_queue);
 		UNLOCK(gen_queue);
 		return GENQUEUE_SUCCESS;
 	};
 
+//	/**
+//	 * @brief pull an element from the queue
+//	 * @param data pointer to the _type being pulled
+//	 * @param size param size being pulled
+//	 * @return status/error code. Please refer to status_codes.h
+//	 */
+//	int pull(_type* &data, int &size){
+//		if(head == NULL || tail == NULL)
+//			return GENQUEUE_EMPTY;
+//		ppayload_t tmp;
+//		LOCK(gen_queue);
+//		printf("pulling from %p \n", tail);
+//		data = tail->data;
+//		tmp = tail;
+//		tail = tail->next;
+//		UNLOCK(gen_queue);
+//		delete tmp;
+//		return GENQUEUE_SUCCESS;
+//	};
+
 	/**
-	 * @brief pull an element from the queue
+	 * @brief pull an element from the queue, wait (thread sleeps) until element is available
 	 * @param data pointer to the _type being pulled
 	 * @param size param size being pulled
-	 * @return status/error code. Please refer to status_codes.h
 	 */
-	int pull(_type* &data, int &size){
-		if(head == NULL || tail == NULL)
-			return GENQUEUE_EMPTY;
+	_type* pull(){
+		_type* dq_data;
 		ppayload_t tmp;
 		LOCK(gen_queue);
-		printf("pulling from %p \n", tail);
-		data = tail->data;
-		size = tail->size;
+		if(head == NULL || tail == NULL){
+			MUX_WAIT_FOR_SIGNAL(gen_queue, gen_queue);
+		}
+		printf("pulling from %p %d\n", tail, size);
+		dq_data = tail->data;
 		tmp = tail;
 		tail = tail->next;
+		size--;
 		UNLOCK(gen_queue);
 		delete tmp;
-		return GENQUEUE_SUCCESS;
+		return dq_data;
 	};
+
 	virtual ~gen_queue(){
 		_type* tmp;
 		int size;
 		LOCK(gen_queue);
-		while(pull(tmp, size) != GENQUEUE_EMPTY){
+		while(size != 0){
+			tmp = pull();
 			delete tmp;
 		}
 		UNLOCK(gen_queue);
 	};
 private:
-			typedef struct PAYLOAD_E{
-						_type*				data;
-						int					size;
-						struct PAYLOAD_E*	next;
-					}payload_t, *ppayload_t;
-			MUX_LOCK(gen_queue);
-			ppayload_t		head;
-			ppayload_t		tail;
+	typedef struct PAYLOAD_E{
+		_type*				data;
+		struct PAYLOAD_E*	next;
+	}payload_t, *ppayload_t;
+	MUX_LOCK(gen_queue);
+	MUX_SIGNAL(gen_queue);
+	int size;
+	ppayload_t		head;
+	ppayload_t		tail;
 };
 
 #endif /* GEN_QUEUE_H_ */

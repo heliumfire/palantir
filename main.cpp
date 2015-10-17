@@ -21,15 +21,19 @@ gen_queue<test_pl_t> *q;
 
 void* source_fn(void* data){
 	char* tmp;
+	int i = 0;
 	printf("Starting Source");
 	while(1){
-		tmp = (char*)malloc(sizeof(char)*12);
-		memcpy(tmp,"hello,world",12);
-		ptest_pl_t pl;
-		pl =  new TEST_PL;
-		pl->data = tmp;
-		pl->size = 12;
-		q->push(pl,12);
+		if(i%500 == 0){
+			tmp = (char*)malloc(sizeof(char)*12);
+			memcpy(tmp,"hello,world",12);
+			ptest_pl_t pl;
+			pl =  new TEST_PL;
+			pl->data = tmp;
+			pl->size = 12;
+			q->push(pl);
+		}
+		i++;
 	}
 }
 
@@ -39,8 +43,8 @@ void* drain_fn(void* data){
 	ptest_pl_t pl;
 	int size;
 	while(1){
-		q->pull(pl,size);
-		//			printf("%s\n",pl->data);
+		//
+					printf("%s\n",q->pull()->data);
 	}
 }
 
